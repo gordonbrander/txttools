@@ -27,6 +27,7 @@ setup(
             "txt_clean_whitespace=txttools.bin.clean_whitespace:main",
             "txt_combine=txttools.bin.combine:main",
             "txt_ext=txttools.bin.ext:main",
+            "txt_sep=txttools.bin.sep:main",
             "txt_textiness=txttools.bin.textiness:main",
             "txt_unwrap=txttools.bin.unwrap:main",
         ]
