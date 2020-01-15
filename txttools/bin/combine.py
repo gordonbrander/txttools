@@ -19,7 +19,6 @@ parser.add_argument("-s", "--sep", type=str, default="---",
     help="Separator string")
 parser.add_argument("-p", "--prepend_sep", action='store_true',
     help="Prepend separator at beginning as well")
-parser.add_argument("-o", "--output", type=str, default="-", help="Output file (- for stdout)")
 
 
 def ijoin(strings, sep):
